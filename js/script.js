@@ -26,11 +26,11 @@
             returnval= false;
         }
         
-        // var dis = document.forms['productForm']['fdis'].value;
-        // if(dis.num>=100){
-        //     seterror("dis","**number is not valid");
-        //     returnval= false;
-        // }
+        var dis = document.forms['productForm']['fdis'].value;
+        if(Number(dis)>=100){
+            seterror("dis","**number is not valid");
+            returnval= false;
+        }
         
         
         return returnval;
