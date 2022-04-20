@@ -1,0 +1,42 @@
+body{
+    padding: 50px 100px;
+}
+/* .formdesign{
+    font-size: 20px;
+}
+.formdesign input{
+    width: 50%;
+    margin: 14px;
+    padding: 12px 20px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 2px;
+} */
+.formerror{
+    color: red;
+}
+.btn{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px 800px;
+}
+#productprice{
+    width: 800px;
+    height: 30px;
+    font-size: 20px;
+}
+#slct1{
+    width: 800px;
+    height:30px;
+    font-size: 15px;
+    text-align: center;
+}
+#slct2{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
