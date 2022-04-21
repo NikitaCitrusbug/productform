@@ -22,13 +22,13 @@
         }
         var productprice = document.forms['productForm']['fproductprice'].value;
         if(Number(productprice)>2000){
-            seterror("productprice","**price is not greater than 2000");
+            alert("price is not greater than 2000");
             returnval= false;
         }
         
         var dis = document.forms['productForm']['fdis'].value;
         if(Number(dis)>=100){
-            seterror("dis","**number is not valid");
+            alert("discount is not valid more than 100");
             returnval= false;
         }
         
