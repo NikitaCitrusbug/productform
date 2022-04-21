@@ -12,6 +12,7 @@
             returnval= false;
         }
         var disc = document.forms['productForm']['fdisc'].value;
+    
         if(disc.length<2){
             seterror("disc","**length is too short");
             returnval= false;
